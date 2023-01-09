@@ -4,22 +4,28 @@
  */
 
 :root {
-    --background-color:#ffffff;
+    --background-color:#292b2c;
+	--text-color:white;
+	--text-accent-color:#F2A436;
     --title-background-color:#dddddd;
-    --button-background-color:#bbbbbb;
-    --element-background-color:#d2e8e8;
-    --section-border-color:#aaaaaa;
-    --cell-border-color:#dddddd;
-    --highlight-color:#4282b4;
-    --link-color:#4282b4;
-    --visited-color:#4282b4;
-    --hover-color:#4282b4;
+    --button-background-color:#3e4143;
+    --element-background-color:#1c1c1b;
+    --section-border-color:#8c8c8c;
+    --cell-border-color:#918f8f;
+    --highlight-color:#b3bcc2;
+    --link-color:#7aa1bf;
+    --visited-color:#7aa1bf;
+    --hover-color:#68bbfb;
     --timestamp-color:#aaaaaa;
     --hival-color:#aa4444;
     --loval-color:#4444aa;
     --ok-color:#44aa44;
     --low-color:#aa4444;
     --unknown-color:#dfdfdf;
+	--label-color:#b7b7b7;
+	--data-color:#fff;
+	--widget_title-color:##7cc1f7;
+	
 }
 
 /* use the fonts from google */
@@ -38,6 +44,7 @@ body {
     border: 0;
     font-family: 'Open Sans', arial, sans-serif;
     background-color: var(--background-color);
+	color: var(--text-color);
 }
 
 a {
@@ -80,6 +87,7 @@ a:hover {
 #title {
     float: left;
     margin-left: 10px;
+	color: var(--text-accent-color)
 }
 
 #rss_link {
@@ -113,6 +121,7 @@ a:hover {
 .page_title {
     font-size: 140%;
     line-height: 50%;
+	
 }
 
 .lastupdate {
@@ -143,6 +152,7 @@ a:hover {
     text-align: right;
     padding-top: 4px;
     padding-right: 5px;
+	color: var(--label-color);
 }
 
 .data {
@@ -206,15 +216,13 @@ a:hover {
     padding-top: 0px;
     padding-bottom: 0px;
     /* underlined buttons */
-    border-bottom: 5px solid var(--highlight-color);
+    /*border-bottom: 5px solid var(--highlight-color);*/
     /* rounded box buttons */
-/*
     background-color: var(--button-background-color);
     border: 1px solid var(--section-border-color);
     webkit-radius: 3px;
     moz-radius: 3px;
     border-radius: 3px;
-*/
 }
 
 .widget_control {
@@ -222,6 +230,7 @@ a:hover {
     cursor: pointer;
     margin-left: 20px;
     margin-right: 5px;
+	color: var(--hival-color);
 }
 
 .widget img {
@@ -278,7 +287,7 @@ a:hover {
 #history_widget img {
     border: none;
     margin-bottom: 10px;
-    width: 600px; /* should match the image width in skin.conf */
+    width: 800px; /* should match the image width in skin.conf */
 }
 
 #history_widget.widget_title {
