@@ -18,7 +18,7 @@
     #else
     #set $saturl = $Extras.satellite_img
     #end if
-    <a href="$saturl">
+    <a href="$saturl" target="_blank">
       <img src="$Extras.satellite_img" alt="Satellite" />
     </a>
   </div>

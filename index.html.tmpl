@@ -64,7 +64,7 @@
       #end if
     #end for
     #if $show_plot
-            <img src="${plot_name}.png" alt="${plot_name}"/>
+            <img src="${plot_name}.png?v=#echo int(time.time())#" alt="${plot_name}"/>
     #end if
   #end for
           </div>

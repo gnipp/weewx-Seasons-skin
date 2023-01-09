@@ -14,7 +14,7 @@
 
   <div class="widget_contents">
     #if 'radar_url' in $Extras
-    <a  href="$Extras.radar_url">
+    <a  href="$Extras.radar_url" target="_blank">
     #end if
       <img src="$Extras.radar_img" alt="Radar" />
     #if 'radar_url' in $Extras
