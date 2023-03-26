@@ -305,9 +305,9 @@ a:hover {
 }
 
 
-@media (max-width:800px) {
+@media (max-width:1250px) {
     #plot_group { overflow: visible; float: left; }
 }
-@media (min-width:801px) {
+@media (min-width:1251px) {
     #plot_group { overflow: hidden; float: none; }
 }
